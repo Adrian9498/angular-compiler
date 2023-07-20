@@ -1,22 +1,4 @@
-'''
-    IMPORTANT!
-       
-    This script will compile your angular applications and change th dist folder files to the correct
-    branch.
-    
-    So if you are working in app-development branch but your changes are deployed when you
-    commit your changes to test branch, this script will do all the work for you.
-    
-    arguments[1] : path to the angular project
-    arguments[2] : path to create the copy of dist folder
-    arguments[3] : Angular project name
-    arguments[4] : Target Folder after branch switch
-    
-    Execution example of the script
-    
-    python .\angular-compiler.py C:\Users\User\Desktop\Angular_Folder C:\Users\User\Desktop angular-app angular-dev
 
-'''
 import os
 import sys
 import subprocess
